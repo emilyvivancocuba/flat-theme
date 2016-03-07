@@ -1,15 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
-
-.clearfix {
-  *zoom: 1;
+a{
+	text-decoration: none !important;
 }
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
+footer{
+	background-color: #34495E;
 }
-.clearfix:after {
-  clear: both;
+footer h3{
+	color: #fff;
+}
+footer p,
+.links-company li a{
+	color: #BDC3C7;
+}
+.links-company ul{
+	list-style: none;
+}
+.links-company li{
+	display: list-item;
+}
+.links-company li a{
+	text-transform: capitalize;
 }
