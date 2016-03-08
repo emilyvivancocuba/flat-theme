@@ -102,7 +102,8 @@ footer ul li{
 .person-description h5{
 	padding-top: 7px;
 }
-.person-description img{
+.person-description img,
+.john-doe img{
 	border: none;
 }
 .text-senior{
@@ -141,4 +142,26 @@ footer ul li{
 }
 .boton-lk{
 	background-color: #21A6D8;
+}
+
+/*BLOG ITEM*/
+.section-blog-item{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.img-blog{
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+.blog-contenido{
+	padding: 21px;
+	background-color: #fff;
+	border-radius: 0px 0px 5px 5px;
+}
+
+
+.john-doe{
+	margin: 14px;
+	border-radius: 5px;
+	padding: 14px 14px 28px;
 }
