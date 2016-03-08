@@ -70,3 +70,75 @@ footer ul li{
 	display: inline-block;
 	padding-right: 21px;
 }
+
+/*ABOUT US*/
+
+.progress, .progress .bar {
+    background: #fff;
+    box-shadow: none;
+    height: 30px;
+    line-height: 30px;
+}
+.bg-gris{
+	background-color: #F5F5F5;
+}
+.section-about-us{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.what-we-are h2,
+.meet-the-team h1{
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.meet-the-team{
+	text-align: center;
+	padding-top: 50px;
+}
+.meet-the-team .subtitle{
+	font-size: 21px;
+	margin-bottom: 50px;
+}
+.person-description h5{
+	padding-top: 7px;
+}
+.person-description img{
+	border: none;
+}
+.text-senior{
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 14px;
+}
+.boton{
+	display: inline-table;
+	border-radius: 50%;
+	color: #fff;
+	margin: 7px 1px;
+	width: 35px;
+	height: 35px;
+}
+.boton i{
+	border-radius: 50%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.boton:hover i{
+	color: #fff;
+}
+.boton:hover{
+	opacity: 0.7;
+}
+.boton-fb{
+	background-color: #4F7DD4;
+}
+.boton-gp{
+	background-color: #DC422B;
+}
+.boton-twit{
+	background-color: #5BCEFF;
+}
+.boton-lk{
+	background-color: #21A6D8;
+}
