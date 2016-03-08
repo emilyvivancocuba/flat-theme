@@ -141,8 +141,7 @@ font-weight:bold;
 width:100%;
 background-color:#D9534F;
 }
-.white-line{ 
-width:4%;
-padding:20px;
-background-color:white;
+.blockquote>p{
+color:white;
 }
+
