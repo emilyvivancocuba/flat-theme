@@ -375,12 +375,18 @@ border-radius: 50%;
 height: 90px;
 width: 90px;
 float:left;
+display: table;
+text-align: center;
+cursor: pointer;
+}
+.iconos i{
+	display: table-cell;
+	vertical-align: middle;
 }
 .iconos .fa{
 color:white;
 font-size:30px;
 margin:auto;
-padding:37%;
 }
 .social>h1{
 font-size:20px;
