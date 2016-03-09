@@ -29,9 +29,11 @@ footer,
 footer a{
 	color: #BDC3C7;
 }
-.links-company ul,
-footer ul{
-	list-style: none;
+ul.arrow,
+footer ul,
+.tags-area ul,
+ul.tag-cloud{
+	list-style-type: none;
 }
 .links-company li{
 	display: list-item;
@@ -87,7 +89,8 @@ footer ul li{
 	padding-bottom: 50px;
 }
 .what-we-are h2,
-.meet-the-team h1{
+.meet-the-team h1,
+.contact-us h4{
 	margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -158,10 +161,133 @@ footer ul li{
 	background-color: #fff;
 	border-radius: 0px 0px 5px 5px;
 }
-
-
+.blog-contenido h3{
+	padding-bottom: 14px;
+	color: #000;
+}
+.blog-contenido:hover{
+	color: inherit;
+}
+.blog-sub-links{
+	font-size: 12px;
+	color: #999;
+}
+.blog-sub-links span{
+	margin-right: 14px;
+}
+.blog-sub-links span i{
+	margin-right: 4px;
+}
+.blog-sub-links a{
+	color: #999;
+}
+.blog-title-1{
+	font-size: 21px;
+	padding-top: 21px;
+	padding-bottom: 7px;
+	line-height: 1.5;
+}
+.blog-subtitle-1{
+	padding-top: 7px;
+	padding-bottom: 14px;
+}
+.tags-area{
+	padding-bottom: 14px;
+}
+.tags-area ul,
+.tags-area li{
+	display: inline-block;
+	margin-right: 3px;
+}
 .john-doe{
-	margin: 14px;
+	margin: 14px 0px;	
+}
+.john-doe,
+.media-body .bg-gris{
 	border-radius: 5px;
 	padding: 14px 14px 28px;
+}
+.media-body .bg-gris,
+.media-sub{
+	margin-left: 14px;
+}
+.media-sub{
+	padding-bottom: 28px;
+}
+.john-doe .media-body{
+	padding-left: 14px;
+}
+.john-doe .media-body .media-heading,
+.section-comments .media-body .media-heading{
+	font-weight: 600;
+}
+.section-comments .media-body .media-heading{
+	display: inline-block;
+}
+.section-comments .media-body small{
+	margin-left: 7px;
+	display: inline-block;
+}
+.section-comments .media-body a{
+	color: #000;
+}
+.section-comments .media-body a:hover{
+	color: inherit;
+}
+.section-leave-commment{
+	padding-top: 28px;
+}
+.input-group{
+	margin-bottom: 21px;
+}
+.ads .row{
+	margin-top: 7px;
+	margin-bottom: 21px;
+}
+.categories,
+.categories .arrow,
+.tags,
+.tags h3{
+	padding-top: 7px;
+	padding-bottom: 14px;
+}
+.categories a,
+.categories a:hover{
+	color: black;
+}
+.tag-cloud li{
+	display: inline-block;
+	margin-right: 1px;
+	margin-bottom: 3px;
+}
+.contact-us,
+.item-boxs{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.img-portfolio{
+	width: 100%;
+}
+.pd-white{
+	background-color: #fff;
+	display: block;
+  	padding: 12px;
+  	margin-bottom: 30px;
+  	border: 1px solid #eee;
+  	cursor: pointer;
+}
+.pd-white:hover{
+	color: inherit;
+	
+}
+.pd-white:hover img{
+	-webkit-transition:all .9s ease;
+	-moz-transition:all .9s ease;
+	-o-transition:all .9s ease;
+	-ms-transition:all .9s ease;
+	opacity: 0.5;
+}
+.pd-white h5{
+	color: #000;
+	padding-top: 5px;
 }
