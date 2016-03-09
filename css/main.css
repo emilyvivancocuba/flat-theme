@@ -2,6 +2,161 @@
 h1, h2, h3, h4, h5, h6, p{
 	margin: 0px;
 }
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.navbar{
+	background-color: #34495E;
+	padding: 1% 0;
+	margin-bottom:0;
+	border-radius:0;
+}
+.nav{
+	float: right;
+	margin-top: 1%;
+	background-color: #34495E;
+}
+.nav a{
+	color: white;
+}
+.nav-pills>li>a:hover{
+	background-color: #2C3E50;
+}
+.green-box{
+ background-color:#2ECC71;
+ padding-top:4%;
+ padding-bottom:4%;
+}
+.green-box h1{
+margin-top:0;
+margin-bottom:0;
+}	
+.home{
+padding-right:4%;
+background-color:transparent;
+}
+h1,h2,h3,h4,h5,h6{
+margin:0;
+padding:0;
+}
+.h1,.h2,.h3,.h4,.h5,.h6{
+margin:0;
+padding:0;
+}
+.transparent{
+background-color:transparent;
+}
+.transparent a{
+text-decoration:none;
+}
+.transparent>a:hover{
+color:white;
+text-decoration:none;
+}
+.text-carousel{
+background-image: url(../images/slider/bg1.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+height:527px;
+padding:0;
+}
+.text-carousel>h1{
+margin:0;
+color:white;
+position:absolute;
+top:37%;
+left:9%;
+}
+.text-carousel>p{
+color:white;
+position:absolute;
+top:46%;
+left:9%;
+}
+.iconos{
+background-color: #1C7A44;
+border-radius: 50%;
+height: 90px;
+width: 90px;
+float:left;
+
+}
+.iconos .fa{
+color:white;
+font-size:30px;
+margin:auto;
+padding:37%;
+}
+.social>h1{
+font-size:20px;
+width:300%;
+color:white;
+margin-bottom:4%;
+}
+.social>p{
+width:280%;
+color:rgba(255, 255, 255, 0.76);
+font-size:13px;
+}
+.bg-gris{
+background-color:#F5F5F5;
+height:527px;
+padding:8%;
+}
+.bg-gris h1{
+font-size:24px;
+padding-bottom:2%;
+color:#364A5F;
+}
+.bg-gris p{
+color:#6D7C8B;
+}
+.red{
+background-color: #D9534F;
+border: 1px solid #D74C48;
+color: white;
+}
+.bg-white{
+background-color: white;
+padding:4%;
+padding-bottom:2%;
+}
+.picture-img{
+width:100%;
+}
+.picture>p{
+margin-top:5%;
+font-weight:bold;
+}
+.bg-danger{
+width:100%;
+padding:4%;
+background-color:#D9534F;
+}
+.bg-danger{
+color:white;
+}
+blockquote{
+padding:2%;
+}
+blockquote small{
+color:white;
+}
+.text-center{
+padding:0.1%;
+padding-bottom:1%;
+}
 a{
 	text-decoration: none !important;
 }
