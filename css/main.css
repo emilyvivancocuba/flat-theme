@@ -278,7 +278,6 @@ footer ul li{
 }
 .pd-white:hover{
 	color: inherit;
-	
 }
 .pd-white:hover img{
 	-webkit-transition:all .9s ease;
@@ -290,4 +289,31 @@ footer ul li{
 .pd-white h5{
 	color: #000;
 	padding-top: 5px;
+}
+
+
+
+
+.green-box{
+ background-color:#2ECC71;
+ color: #fff;
+ padding-top:4%;
+ padding-bottom:4%;
+}
+.green-box-sub-links{
+	margin-top: 21px;
+	list-style-type: none;
+	padding: 7px 14px;
+}
+.green-box-sub-links li{
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.7);
+}
+.green-box-sub-links a{
+	color: #fff;
+}
+.green-box-sub-links>li+li:before {
+    padding: 0px 5px;
+    color: #ccc;
+    content: "/\00a0";
 }
